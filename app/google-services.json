@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "582934640256",
+    "project_id": "finalprojectmobile-e752f",
+    "storage_bucket": "finalprojectmobile-e752f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582934640256:android:2a84af97eda5504cb81865",
+        "android_client_info": {
+          "package_name": "com.Nelsen.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582934640256-f5f00ufvqrcp3lglfvvarrl2ihh9t7b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBba41LyXgqCsoWfQ_q7WTmzzyjapodrxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582934640256-f5f00ufvqrcp3lglfvvarrl2ihh9t7b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

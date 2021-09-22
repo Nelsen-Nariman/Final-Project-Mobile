@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionFragment"
+    android:background="#212121"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/king_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Harlequin King Of Fairy"
+        android:textColor="#3DB113"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/king_ability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ability: "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/king_desc"
+        app:layout_constraintStart_toStartOf="@+id/king_desc"
+        app:layout_constraintTop_toBottomOf="@+id/king_desc" />
+
+    <TextView
+        android:id="@+id/ability_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Form Of Chastiefol : True Chastiefol"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/king_ability"
+        app:layout_constraintEnd_toEndOf="@+id/king_ability"
+        app:layout_constraintTop_toBottomOf="@+id/king_ability" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
